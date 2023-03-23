@@ -1,0 +1,25 @@
+# MIF 1.1
+# Material Name:NiFe
+Ms:800e3
+A:1.05e-6
+K1:0.5E3
+Damp Coef:0.5
+Anisotropy Type:cubic
+Anisotropy Init:constant
+Anisotropy Dir1:1 0 0
+Anisotropy Dir2:0 1 0
+Demag Type:constmag
+Part Height:20E-9
+Part Width:20E-9
+Part Thickness:10e-9
+Part Shape:rectangle
+Cell Size:20e-9
+Init Mag:uniform 90 45.1
+Base Output Filename:test
+Magnetization Output Format:binary 4
+Total Field Output Format:binary 4
+Data Table Output Format:%.15g
+Converge |mxh| Value:1.0E-5
+Randomizer Seed:0
+Min Time Step:0.1
+Max Time Step:5
